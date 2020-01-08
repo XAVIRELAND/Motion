@@ -1,5 +1,5 @@
 # Motion
- motion detection camera
+ Motion detection camera
 
 
 This project is based in the motion software, https://motion-project.github.io/
@@ -10,9 +10,9 @@ Once the video recording is trigered the follow happens:
 1. An email is sent to the user via "Wia"notifying that a new motion event has started 
 2. Video images are stored in the Raspberry Pi. 
 3. Video name and timestamp are stored in a Mysql database.
-4. Once the video is fully recorded, gets uploaded to Dropbox.
+4. Once the video is fully recorded, it gets uploaded to Dropbox.
 
-The images of the camera are streamed to Blynk by an URL created with NoIp application, DNS and port forwarding were used.
+The images of the camera are streamed to Blynk by an URL created with NoIp application, Dynamic DNS and port forwarding were used.
 Finally, using Blink too, the motion software is activated depending on the user`s mobile phone location, if the phone is within a determinated radio distance from the Raspberry pi location, the camera gets deactivated, and viceversa.
 
 
